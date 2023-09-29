@@ -1,17 +1,18 @@
-javascript
-class Building {
-	  constructor(sqft) {
-		      if (this.constructor === Building) {
-			            throw new Error("Cannot instantiate from Building class");
-			          }
-		      this._sqft = sqft;
-		    }
+export default class Building {
+  constructor(sqft) {
+    this._sqft = sqft;
+    console.log(this.#evacuationWarningMessage())
+  }
 
-	  get sqft() {
-		      return this._sqft;
-		    }
+  get sqft() {
+    return this._sqft;
+  }
 
-	  evacuationWarningMessage() {
-		      throw new Error("You have to override this method!");
-		    }
+  set sqft(sqft) {
+    this._sqft = sqft;
+  }
+
+ #evacuationWarningMessage(){
+  return 'Hey There'
+ }
 }
