@@ -1,0 +1,19 @@
+{
+  "name": "0x04-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "biyahon@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "description": ""
+}
